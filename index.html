@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <title>Personal Portfolio - Bootstrap 5</title>
   <meta charset="utf-8">
@@ -7,128 +8,180 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body class="bg-light">
   <!--  Nabvar  -->
-    <nav class="nabvar fixed-top navbar-light bg-light shadow-sm">
-      <div class="container-lg d-flex flex-end justify-content-between align-items-center">
-        <a class="navbar-brand text-danger fw-bold fs-4 " href="#">ARG</a>
-        <section class="dropdown">
-          <button class="btn btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-bars"></i>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#home">Home</a></li>
-            <li><a class="dropdown-item" href="#about">About</a></li>
-            <li><a class="dropdown-item" href="#services">Services</a></li>
-            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-            <li><a class="dropdown-item" href="#contact">Contact</a></li>
-          </ul>
-        </section>
-      </div>
-    </nav>
- 
+  <nav class="nabvar fixed-top navbar-light bg-light shadow-sm">
+    <div class="container-lg d-flex flex-end justify-content-between align-items-center">
+      <a class="navbar-brand text-danger fw-bold fs-4 " href="#">ARG</a>
+      <section class="dropdown">
+        <button class="btn btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+  </nav>
 
-    <!--  Home  -->
-      <section class="home py-5" id="home">
-        <div class="container-lg">
-          <div class="row min-vh-100 align-items-center align-content-center">
-            <div class="col-md-6 mt-5 mt-md-0">
-              <div class="home-img text-center">
-                <img src="img/profile.png" alt="foto del perfil" class="rounded-circle mw-100">
+
+  <!--  Home  -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="img/profile.png" alt="foto del perfil" class="rounded-circle mw-100">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hola soy</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Programador Web</h1>
+            <h2 class="fs-4">Miguel Juárez</h2>
+            <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur,
+              iusto labore minus blanditiis, repellat iure neque obcaecati nobis commodi odio suscipit illo.</p>
+            <a href="#portfolio" class="btn btn-danger px-3 mt-3">Mis proyectos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  About  -->
+  <section class="about py-5 " id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Sobre mi</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, excepturi?</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque corporis
+              deserunt ad itaque cum. Voluptatum, recusandae commodi accusamus illum, modi nam necessitatibus odio quis
+              placeat suscipit, distinctio laboriosam quisquam!</p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">100</h4>
+                <p class="text-muted">Proyectos completados</p>
               </div>
             </div>
-            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-              <div class="home-text">
-                <p class="text-muted mb-1">Hola soy</p>
-                <h1 class="text-danger text-uppercase fs-1 fw-bold">Programador Web</h1>
-                <h2 class="fs-4">Miguel Juárez</h2>
-                <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur, iusto labore minus blanditiis, repellat iure neque obcaecati nobis commodi odio suscipit illo.</p>
-                <a href="#portfolio" class="btn btn-danger px-3 mt-3">Mis proyectos</a>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">90</h4>
+                <p class="text-muted">Clientes Satisfechos</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted">Reseñas Positivas</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center ">
+              <a href="#" class="btn btn-danger px-3 me-5">Descargar CV</a>
+              <div class="social-links">
+                <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <!--  About  -->
-        <section class="about py-5 " id="about">
-          <div class="container-lg py-4">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="section-title text center">
-                  <h2 class="fw-bold mb-5">Sobre mi</h2>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                <div class="about-text">
-                  <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, excepturi?</h3>
-                  <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque corporis deserunt ad itaque cum. Voluptatum, recusandae commodi accusamus illum, modi nam necessitatibus odio quis placeat suscipit, distinctio laboriosam quisquam!</p>
-                </div>
-                <div class="row text-center text-uppercase my-3">
-                  <div class="col-sm-4">
-                    <div class="fact-item">
-                      <h4 class="fs-1 fw-bold">100</h4>
-                      <p class="text-muted">Proyectos completados</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="fact-item">
-                      <h4 class="fs-1 fw-bold">90</h4>
-                      <p class="text-muted">Clientes Satisfechos</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="fact-item">
-                      <h4 class="fs-1 fw-bold">95</h4>
-                      <p class="text-muted">Reseñas Positivas</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 d-flex align-items-center ">
-                    <a href="#" class="btn btn-danger px-3 me-5">Descargar CV</a>
-                    <div class="social-links">
-                      <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
-                      <a href="#" class="text-dark me-2" ><i class="fab fa-twitter"></i></a>
-                      <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
-                      <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-               </div>
-               <div class="col-md-6 mt-5 mt-md-0">
-                  <div class="skill-item mb-4">
-                    <h3 class="fs-6">Html</h3>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
-                      <div class="progress-bar bg-danger" style="width: 80%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item mb-4">
-                    <h3 class="fs-6">Css</h3>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
-                      <div class="progress-bar bg-danger" style="width: 80%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item mb-4">
-                    <h3 class="fs-6">JavaScript</h3>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
-                      <div class="progress-bar bg-danger" style="width: 80%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item mb-4">
-                    <h3 class="fs-6">Bootstrap</h3>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
-                      <div class="progress-bar bg-danger" style="width: 80%"></div>
-                    </div>
-                  </div>
-               </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html</h3>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="progress-bar bg-danger" style="width: 80%"></div>
             </div>
           </div>
-        </section>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Css</h3>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="progress-bar bg-danger" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">JavaScript</h3>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="progress-bar bg-danger" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="progress-bar bg-danger" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="js/bootstrap.bundle.min.js"></script>
+  <!--  Services -->
+  <section class="services  py-5" id="services">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">What I do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Web Development</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolorem?</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-2">Creative Design</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolorem?</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3 class="fs-5 py-2">Photoshop</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolorem?</p>
+          </div>
+        </div>
+      </div>     
+    </div>
+  </section>  
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
